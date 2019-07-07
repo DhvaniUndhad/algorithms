@@ -12,8 +12,7 @@ public class BinarySearch {
 		int low = 0;
 		int high = a.length - 1;
 		
-		while (low <= high) {
-			
+		while (low <= high) {	
 			int mid = (low + high) / 2;
 			if (a[mid] == ss)
 				return mid;
